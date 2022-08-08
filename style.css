@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poiret+One&family=Uchen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Uchen', serif;
+    background:conic-gradient(from -90deg at 25% -50%, rgb(0, 0, 255), rgb(50, 158, 17)) ;
+    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.groceries{
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    box-shadow: 20px 20px 40px 0 rgba(0,0,0,0.5);
+}
+
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.groceries i{
+    font-size: 2rem;
+    color: rgb(11, 56, 41);
+}
+
+.groceries input{
+    font-family: inherit;
+    font-size: 0.9rem;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid rgb(5, 36, 26);
+    width: 70%;
+}
+
+#userInput{
+    background:rgba(170, 201, 184, 0.671);
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+@media(max-width:480){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    .groceries input{
+        font-size: 1rem;
+    }
+    #allItems h2{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
